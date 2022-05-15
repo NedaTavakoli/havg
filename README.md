@@ -33,8 +33,6 @@ make -j -s && make install
 vcftools=$(pwd)
 rm -f "vcftools-0.1.16.tar.gz"
 echo "vcftools download and compilation finished"
-
-
 # get bcftools
 #Note that bcftools will be installed in the bin directory of bcftools folder
 cd $softwarewd
@@ -46,7 +44,6 @@ make
 make install 
 bcftools=$(pwd)
 echo "bcftools download and compilation finished"
-
 #get htslib
 #Note: tabix, htslib and bgzip2 will be installed in the bin directory and rhe main directory
 echo "downloading htslib"
@@ -63,16 +60,13 @@ bgzip2=$(pwd)
 tabix=$(pwd)
 rm -f "htslib-1.12.tar.bz2"
 echo "htslib download and compilation finished"
-
-
 # construct haplotype-annotated variation graph
 # Extract list of haplotypes per variant position for each allele
-
 #  To run for all the chromosomes
 for i in $(seq 1 22; echo X; echo Y)
 do
     ../chr_id_haplotypes.sh ${i}
 done    
-
+```
 
 
