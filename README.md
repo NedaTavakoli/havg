@@ -9,8 +9,8 @@ It contains two Linux shell scripts. The first one, download all the VCF files (
 The second script is used to create a variation graph corresponds to each chromosome that is annotated with list of haplotypes per edge.
 
 This repository needs the following dependencies:
-1- vcftools
-2-bcftool
+(1) vcftools
+(2) bcftool
 
 The overall workflow is:
 
