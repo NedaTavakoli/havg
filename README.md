@@ -1,6 +1,8 @@
 # havg
 
 This repository constructs haplotype-annotaed genome graphs.
+The variation graph per chromose is created and the output would be variaion graph annotated with list of haplotypes per edge.
+
 ```sh
 git clone https://github.com/NedaTavakoli/havg
 cd havg 
