@@ -1,4 +1,5 @@
 # havg
+## Haplotype Annotated Variation Graph
 
 This repository constructs haplotype-annotaed genome graphs.
 
