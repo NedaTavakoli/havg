@@ -70,7 +70,8 @@ echo "htslib download and compilation finished"
 #  To run for all the chromosomes
 for i in $(seq 1 22; echo X; echo Y)
 do
-    ./chr_id_haplotypes.sh ${i}
+    ../chr_id_haplotypes.sh ${i}
 done    
+
 
 
